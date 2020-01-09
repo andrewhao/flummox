@@ -26,8 +26,6 @@ function writeMetric(
         Authorization: `Token ${INFLUXDB_TOKEN}`
       }
     })
-    .then(() => console.log("Logged metric successfully to InfluxDB"))
-    .catch(e => console.error(e));
 }
 
 function fieldSetDataFormat(set) {
