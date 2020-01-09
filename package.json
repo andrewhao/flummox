@@ -1,8 +1,8 @@
 {
-  "name": "flummox",
+  "name": "isomorphic-influx",
   "version": "1.0.0",
   "description": "Send metrics to InfluxDB 2.0",
-  "main": "index.js",
+  "main": "influx.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
