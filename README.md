@@ -4,7 +4,7 @@ A library for writing stats to InfluxDB 2.0. Metrics can fire from either a Node
 
 ## Key concepts
 
-Be sure to review the [key concepts from the Influx documentation](https://v2.docs.influxdata.com/v2.0/reference/key-concepts/data-elements/) (fields, tags).
+Be sure to review the [key concepts from the Influx documentation](https://v2.docs.influxdata.com/v2.0/reference/key-concepts/data-elements/) (fields, tags). Be aware that this library only supports InfluxDB 2.0 metrics, and not InfluxDB 1.0.
 
 ## Usage
 
