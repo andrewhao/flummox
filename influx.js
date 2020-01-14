@@ -18,7 +18,6 @@ function writeMetric(
   const fs = fieldSetDataFormat(sortOnKeys(fieldSet));
 
   const lineMetric = `${name}${tagSetMetric} ${keyify(fs)}`;
-  console.log(lineMetric);
   const url = `${INFLUXDB_SERVER_URL}/api/v2/write?org=${INFLUXDB_ORG_ID}&bucket=${INFLUXDB_BUCKET_ID}&precision=s`;
   return fetch(url, {
       method: 'POST',
