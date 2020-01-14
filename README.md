@@ -13,7 +13,7 @@ import { writeMetric } from "isomorphic-influx";
 
 writeMetric(
   metricName, // Name of the metric you are logging
-  (fieldSet = {}), // Fields to log, as an o
+  (fieldSet = {}), // Fields to log, as an object
   (tagSet = {}), // Tag metadata to log, as an object
   (INFLUXDB_ORG_ID = process.env.INFLUXDB_ORG_ID), // InfluxDB Org ID
   (INFLUXDB_BUCKET_ID = process.env.INFLUXDB_BUCKET_ID), // InfluxDB Bucket ID
