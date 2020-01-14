@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-influx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send metrics to InfluxDB 2.0",
   "main": "influx.js",
   "scripts": {

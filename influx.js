@@ -21,6 +21,7 @@ function writeMetric(
   console.log(lineMetric);
   const url = `${INFLUXDB_SERVER_URL}/api/v2/write?org=${INFLUXDB_ORG_ID}&bucket=${INFLUXDB_BUCKET_ID}&precision=s`;
   return fetch(url, {
+      method: 'POST',
       body: lineMetric,
       headers: {
         Authorization: `Token ${INFLUXDB_TOKEN}`
